@@ -9,27 +9,29 @@ This project was written by me during my first participation in work and provide
 
 该软件在以下场合适用：
 
-（1）、需要隐藏真正TCP服务器的位置。
+1. 需要隐藏真正TCP服务器的位置。
 
-（2）、限制客户端IP登陆
+2. 限制客户端IP登陆
 
-（3）、TCP转地址
+3. TCP转地址
 
 This software is suitable for the following situations:
 
-(1) The location of the real TCP server needs to be hidden.
+1. The location of the real TCP server needs to be hidden.
 
-(2) Restrict client IP login
+2. Restrict client IP login
 
-(3), TCP address transfer
+3. TCP address transfer
 
 # 实现原理
 
-1、根据输入ip和端口创建socket服务监听客户端。
+1. 根据输入ip和端口创建socket服务监听客户端。
 
-2、当新客户端连进来后，创建新的socket对象，连接到输出ip和端口创建的服务器上。
+2. 当新客户端连进来后，创建新的socket对象，连接到输出ip和端口创建的服务器上。
 
-3、交换两个socket对象的数据。
+3. 交换两个socket对象的数据。
+
+Method
 
 1. Create a socket service listening client based on the input IP and port.
 
